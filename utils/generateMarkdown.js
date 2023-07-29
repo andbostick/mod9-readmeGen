@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
   }
 
   if(license === 'MIT'){
-    return `## License
+    return `## [License](#license)  
   MIT License
 
   Copyright (c) 2023 Andrew Bostick
@@ -67,7 +67,8 @@ function renderLicenseSection(license) {
   }
 
   if(license === 'ISC'){
-  return `## License 
+  return `## [License](#license)  
+  
   ISC License
 
   Copyright (c) 2023 Andrew Bostick
@@ -86,7 +87,8 @@ function renderLicenseSection(license) {
   `}
   
   if(license === 'IBM'){
-    return `## License 
+    return `## [License](#license) 
+    
     IBM License
   
     Copyright (c) 2023 Andrew Bostick
@@ -108,6 +110,10 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+
+## Table of Contents
+1.[License](#license)
+
 ## Description
 ${data.description}
 
@@ -123,7 +129,17 @@ ${data.guidelines}
 ## Testing
 ${data.testing}
 
-${renderLicenseSection(data.license)}`;
+## Questions
+Contact me at
+Github: ${data.name}
+or
+Email: ${data.email}
+
+${renderLicenseSection(data.license)}
+
+
+`;
 }
+
 
 module.exports = generateMarkdown;
