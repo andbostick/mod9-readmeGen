@@ -7,12 +7,12 @@ const questions = [
     {
         type:'input',
         name:'title',
-        message: 'what is the title of your project?'
+        message: '@hat is the title of your project?'
     },
     {
         type:'input',
         name:'description',
-        message: 'what is the description of your project?'
+        message: 'What is the description of your project?'
     },
     {
         type:'input',
@@ -32,7 +32,7 @@ const questions = [
     {
         type:'input',
         name:'testing',
-        message: 'what are your testing instructions?'
+        message: 'What are your testing instructions?'
     },
     {
         type:'list',
@@ -43,12 +43,12 @@ const questions = [
     {
         type:'input',
         name:'name',
-        message: 'what is your github username?'
+        message: 'What is your github username?'
     },
     {
         type:'input',
         name:'email',
-        message: 'what is your email?'
+        message: 'What is your email?'
     },
 
 
@@ -66,13 +66,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        console.log(answers.title)
-        console.log(answers.description)
-        console.log(answers.install)
-        console.log(answers.usage)
-        console.log(answers.guidelines)
-        console.log(answers.testing)
-        console.log(answers.license)
         writeToFile('README', generate(answers))
     })
 }
