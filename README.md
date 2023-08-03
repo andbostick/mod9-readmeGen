@@ -1,4 +1,4 @@
-# andrerws super huge big proj [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# module 9 readme project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 1.[Descritpion](#descritpion)
@@ -15,26 +15,26 @@
 
 7.[License](#license)
 
-## [Description](#description)
-asdfjnkjldsjlbsd
+## [Descritpion](#descritpion)
+create a program that generates a readme file using commandline prompts
 
 ## [Installation](#installation)
-asjfsdlkjfnsdfkljnsd
+there is no install information
 
 ## [Usage](#usage)
-sdfkjlbnasklfjnf
+no usage information
 
 ## [Contributiuon Guidelines](#contribution)
-askldjskljfd
+no contribution guidelines
 
 ## [Testing](#testing)
-asdfjndsalkfnas
+no testing instruction
 
 ## [Questions](#questions)
 Contact me at
 Github: andbostick
 or
-Email: andbostick@gmail.com
+Email: andbostick
 
 ## [License](#license)  
   MIT License

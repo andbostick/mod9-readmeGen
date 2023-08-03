@@ -126,7 +126,7 @@ function generateMarkdown(data) {
 
 7.[License](#license)
 
-## [Description](#description)
+## [Descritpion](#descritpion)
 ${data.description}
 
 ## [Installation](#installation)
